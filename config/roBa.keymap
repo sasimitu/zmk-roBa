@@ -78,9 +78,6 @@
             tap-ms = <20>;
         };
 
-        // 設定したいレイヤー
-        sensor-bindings = SCROLL_UP_DOWN;
-
     };
 
     keymap {
@@ -94,7 +91,7 @@
 &kp LEFT_GUI  &lt 6 LG(V)  &kp DELETE  &mt LEFT_ALT ESC  &mt LEFT_SHIFT SPACE  &kp LCTRL           &kp BACKSPACE  &lt 7 ENTER                               &lt 2 LS(INT_RO)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
